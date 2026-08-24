@@ -1,0 +1,83 @@
+<svg viewBox="0 0 680 560" width="100%" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>CL-JEPA three-layer continual learning framework over the JEPA core</title>
+  <desc>Three defense pillars (regularization, replay, architecture) stabilize a JEPA core that runs a dual loop of online streaming and task-boundary updates, monitored by rollout drift.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <text class="th" x="340" y="34" text-anchor="middle" dominant-baseline="central" fill="#E6F1FB">CL-JEPA: continual learning over the JEPA core</text>
+
+  <!-- P1 Regularization -->
+  <g class="c-blue">
+    <rect x="40" y="64" width="180" height="132" rx="12" fill="#0C447C" stroke="#85B7EB" stroke-width="0.5"/>
+    <text class="th" x="130" y="88" text-anchor="middle" dominant-baseline="central" fill="#E6F1FB">Regularization</text>
+    <text class="ts" x="130" y="114" text-anchor="middle" dominant-baseline="central" fill="#B5D4F4">EMA-MKD slow anchor</text>
+    <text class="ts" x="130" y="134" text-anchor="middle" dominant-baseline="central" fill="#B5D4F4">Latent distillation</text>
+    <text class="ts" x="130" y="154" text-anchor="middle" dominant-baseline="central" fill="#B5D4F4">CaSSLe / CLA</text>
+    <text class="ts" x="130" y="174" text-anchor="middle" dominant-baseline="central" fill="#B5D4F4">no task boundary</text>
+  </g>
+
+  <!-- P2 Replay -->
+  <g class="c-blue">
+    <rect x="250" y="64" width="180" height="132" rx="12" fill="#0C447C" stroke="#85B7EB" stroke-width="0.5"/>
+    <text class="th" x="340" y="88" text-anchor="middle" dominant-baseline="central" fill="#E6F1FB">Replay</text>
+    <text class="ts" x="340" y="114" text-anchor="middle" dominant-baseline="central" fill="#B5D4F4">Exemplar buffer ER++</text>
+    <text class="ts" x="340" y="134" text-anchor="middle" dominant-baseline="central" fill="#B5D4F4">Latent buffer DER</text>
+    <text class="ts" x="340" y="154" text-anchor="middle" dominant-baseline="central" fill="#B5D4F4">fixed memory cost</text>
+    <text class="ts" x="340" y="174" text-anchor="middle" dominant-baseline="central" fill="#B5D4F4">rollout pairs</text>
+  </g>
+
+  <!-- P3 Architecture -->
+  <g class="c-blue">
+    <rect x="460" y="64" width="180" height="132" rx="12" fill="#0C447C" stroke="#85B7EB" stroke-width="0.5"/>
+    <text class="th" x="550" y="88" text-anchor="middle" dominant-baseline="central" fill="#E6F1FB">Architecture</text>
+    <text class="ts" x="550" y="114" text-anchor="middle" dominant-baseline="central" fill="#B5D4F4">Adapter / LoRA</text>
+    <text class="ts" x="550" y="134" text-anchor="middle" dominant-baseline="central" fill="#B5D4F4">Predictor co-train</text>
+    <text class="ts" x="550" y="154" text-anchor="middle" dominant-baseline="central" fill="#B5D4F4">Clin-JEPA 5-phase</text>
+    <text class="ts" x="550" y="174" text-anchor="middle" dominant-baseline="central" fill="#B5D4F4">param isolation</text>
+  </g>
+
+  <!-- leaders to core -->
+  <path class="leader" d="M130 196 L340 250" stroke="#5F5E5A" stroke-width="0.5" stroke-dasharray="4 4" fill="none" marker-end="url(#arrow)"/>
+  <path class="leader" d="M340 196 L340 250" stroke="#5F5E5A" stroke-width="0.5" stroke-dasharray="4 4" fill="none" marker-end="url(#arrow)"/>
+  <path class="leader" d="M550 196 L340 250" stroke="#5F5E5A" stroke-width="0.5" stroke-dasharray="4 4" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- JEPA core -->
+  <g class="c-teal">
+    <rect x="210" y="250" width="260" height="170" rx="16" fill="#04342C" stroke="#5DCAA5" stroke-width="0.5"/>
+    <text class="th" x="340" y="276" text-anchor="middle" dominant-baseline="central" fill="#E1F5EE">JEPA core</text>
+
+    <g class="box">
+      <rect x="228" y="292" width="112" height="38" rx="8" fill="#2C2C2A" stroke="#888780" stroke-width="0.5"/>
+      <text class="ts" x="284" y="311" text-anchor="middle" dominant-baseline="central" fill="#D3D1C7">Context f_θ</text>
+    </g>
+    <g class="box">
+      <rect x="228" y="346" width="112" height="38" rx="8" fill="#2C2C2A" stroke="#888780" stroke-width="0.5"/>
+      <text class="ts" x="284" y="365" text-anchor="middle" dominant-baseline="central" fill="#D3D1C7">EMA f_ξ</text>
+    </g>
+    <g class="box">
+      <rect x="356" y="319" width="104" height="38" rx="8" fill="#2C2C2A" stroke="#888780" stroke-width="0.5"/>
+      <text class="ts" x="408" y="338" text-anchor="middle" dominant-baseline="central" fill="#D3D1C7">Predict g_φ</text>
+    </g>
+
+    <path class="arr" d="M340 330 L356 338" stroke="#5DCAA5" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+    <path class="arr" d="M408 357 L340 346" stroke="#5DCAA5" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+    <text class="ts" x="340" y="408" text-anchor="middle" dominant-baseline="central" fill="#9FE1CB">L_JEPA in latent space</text>
+  </g>
+
+  <!-- dual loop -->
+  <g class="box">
+    <rect x="40" y="440" width="280" height="70" rx="12" fill="#2C2C2A" stroke="#888780" stroke-width="0.5"/>
+    <text class="th" x="60" y="466" text-anchor="start" dominant-baseline="central" fill="#E6EDEB">Online stream loop</text>
+    <text class="ts" x="60" y="490" text-anchor="start" dominant-baseline="central" fill="#B4B2A9">EMA align + latent replay, no boundary</text>
+  </g>
+  <g class="box">
+    <rect x="360" y="440" width="280" height="70" rx="12" fill="#2C2C2A" stroke="#888780" stroke-width="0.5"/>
+    <text class="th" x="380" y="466" text-anchor="start" dominant-baseline="central" fill="#E6EDEB">Task boundary loop</text>
+    <text class="ts" x="380" y="490" text-anchor="start" dominant-baseline="central" fill="#B4B2A9">snapshot + CaSSLe distill + adapter</text>
+  </g>
+
+  <text class="ts" x="340" y="534" text-anchor="middle" dominant-baseline="central" fill="#EF9F27">Drift monitor: rollout divergence (Clin-JEPA metric)</text>
+</svg>

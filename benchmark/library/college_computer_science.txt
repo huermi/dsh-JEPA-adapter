@@ -1,0 +1,49 @@
+which data structure in a compiler manages identifiers and their attributes | the symbol table in a compiler is responsible for managing identifiers and their attributes
+what is currying in functional programming | currying transforms a function taking multiple arguments into a sequence of functions each taking a single argument
+what is a combinational circuit | a combinational circuit has outputs that depend only on current inputs, with no memory of previous states
+what happens if a malicious process gets temporary administrator access | the threat from a malicious process with administrator access is often permanent until the system is reinstalled or thoroughly cleaned
+which python operator performs integer division | the double slash operator in python performs integer division, discarding the remainder
+when are runtime errors detected | runtime errors are detected during run time while the program is executing
+which statements about combinational circuits are true | combinational circuits cannot store state, so only the statement about their output depending only on current inputs is true
+a spell checking program uses a hash table of words | the hash table spell checker requires fast lookup of each word
+the set of strings where the number of zeros and ones satisfies the condition | the number of states needed for the language with the counting condition is 2k
+company x shipped 5 chips with 1 defective and company y shipped 4 chips with 2 defective | the probability of selecting a defective chip from the two shipments is two thirds
+a depth first search tree of a connected undirected graph | in a depth first search tree of a connected graph the non tree edges connect a vertex to an ancestor
+american exceptionalism opposition to world government | american exceptionalism leads to opposition to world government because of its general anti statism and opposition to central authority
+the vietnam war can be understood as | the vietnam war deeply divided the united states, exemplified containment, and showed how even a great power may fail, so all of the statements are true
+One approach to handling fuzzy logic data might be to design a computer using ternary (base-3) logic so that data could be stored as “true,” “false,” and “unknown.” If each ternary logic element is called a flit, how many flits are required to represent at least 256 different values? | 6
+Which of the following algorithms has running time Θ(n^2) in the worst case but Θ(n log n) on average? | Quicksort
+Which of the following is true of interrupts? | They can indicate completion of an I/O operation.
+Which of the following statements about horizontal versus vertical microarchitecture is (are) true?
+I. Programs for horizontal architectures require more time steps than those for vertical architectures.
+II. Horizontal microinstructions are unencoded.
+III. Horizontal microinstructions usually have a single opcode and multiple operand specifiers. | II only
+A 3-way, set-associative cache is | one in which each main memory word can be stored at any of 3 cache locations
+Let P be a procedure that for some inputs calls itself (i.e., is recursive). If P is guaranteed to terminate, which of the following statements must be true?
+I. P has a local variable.
+II. P has an execution path where it does not call itself.
+III. P either refers to a global variable or has at least one parameter. | II and III only
+A major advantage of direct mapping of a cache is its simplicity. The main disadvantage of this organization is that | the cache hit ratio is degraded if two or more blocks used alternately map onto the same block frame in the cache
+Which of the following characteristics of a programming language is best specified using a context-free grammar? | Operator precedence
+Resolution theorem proving for showing that a formula of propositional logic is not satisfiable has which of the following properties?
+I. It is a sound proof system in the sense that there does not exist a proof of the unsatisfiability of a satisfiable formula of propositional logic.
+II. It is a complete proof system in the sense that there is a proof of unsatisfiability for every unsa tisfiable formula of propositional logic.
+III. It is a succinct proof system in the sense that whenever an unsatisfiable formula F of propositional logic has a resolution proof, F also has a proof whose length is polynomial in the length of F. | I and II only
+Two processors, M-5 and M-7, implement the same instruction set. Processor M-5 uses a 5-stage pipeline and a clock cycle of 10 nanoseconds. Processor M-7 uses a 7-stage pipeline and a clock cycle of 7.5 nanoseconds. Which of the following is (are) true?
+I. M-7’s pipeline has better maximum throughput than M-5’s pipeline.
+II. The latency of a single instruction is shorter on M-7’s pipeline than on M-5’s pipeline.
+III. Programs executing on M-7 will always run faster than programs executing on M-5. | I only
+Hash tables can contribute to an efficient average-case solution for all of the problems described below EXCEPT: | Range search: Given values a and b, find all the records whose key value is in the range a, b.
+Which of the following instruction-set features is NOT generally considered an obstacle to aggressive pipelining of an integer unit? | Several different classes (sets) of registers
+A "strictly binary tree" is a binary tree in which every node that is not a leaf has two children. Suppose that for a class of strictly binary trees there exists c > 0 such that, for any tree in the class, the ratio of the lengths of any two root-to-leaf paths is bounded above by c. Which of the following best characterizes the height h of any tree in this class, where N is the number of nodes in the tree and N > 1 ? | h < c log2(N)
+To compute the matrix product M_1M_2, where M_1 has p rows and q columns and where M_2 has q rows and r columns, takes time proportional to pqr, and the result is a matrix of p rows and r columns. Consider the product of three matrices N_1N_2N_3 that have, respectively, w rows and x columns, x rows and y columns, and y rows and z columns. Under what condition will it take less time to compute the product as (N_1N_2)N_3 (i.e., multiply the first two matrices first) than to compute it as N_1(N_2 N_3)? | 1/x + 1/z < 1/w + 1/y
+A starvation-free job-scheduling policy guarantees that no job waits indefinitely for service. Which of the following job-scheduling policies is starvation-free? | Round-robin
+Which of the following sorting algorithms has average-case and worst-case running times of O(n log n)? | Merge sort
+Which of the following problems is (are) decidable?
+I. Given a (finite) string w, is w a prefix of the decimal expansion of π?
+II. Given a program and an input, is the program’s output the decimal expansion of π?
+III. Given a program that takes as input a prefix of the decimal expansion of π, is the program’s output always the same for every prefix? | I only
+Which of the following statements about datagrams sent by a node in a network using IPv4 protocol is (are) true?
+I. Datagrams at the source must be the size of the smallest maximum transmission unit (MTU) of all the links on a path to the destination.
+II. Datagrams may be fragmented during routing.
+III. Datagrams are reassembled only at the destination. | II and III

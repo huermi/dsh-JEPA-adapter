@@ -1,0 +1,54 @@
+how to express division of a total into groups | division of a total into equal groups is expressed as the total divided by the number per group
+how to solve a proportion | to solve a proportion cross multiply, for example 48 over 88 equals 6 over 11 because 48 times 11 equals 88 times 6
+what is an arithmetic sequence | an arithmetic sequence is a number pattern where the same amount is added each time to get the next number
+what is negative divided by negative | a negative number divided by a negative number gives a positive result
+how to find the average | the average is the sum of the values divided by the number of values
+what is a quotient | the quotient is the result of division
+how to compare numbers in a range | a number between two bounds is larger than the lower bound and smaller than the upper bound
+what is 3 over 4 minus 1 over 8 | three quarters minus one eighth equals five eighths
+how to find how many groups fit a total | if 393 players form teams of 3, the number of teams is 393 divided by 3
+what is regression analysis | regression analysis estimates the relationship between a dependent variable and one or more independent variables
+what is statistical significance | a result is statistically significant if it is unlikely to have occurred by chance, typically with a p value below 0.05
+what does gdp measure | gdp measures the total value of goods and services produced in a country in a year
+what is true when the r squared of an estimated regression is exactly zero | when the r squared is exactly zero the first second and third statements about the regression are true
+when bootstrapping is preferred to pure simulation | bootstrapping is preferred over pure simulation when the first and third situations apply
+a regression estimated using 27 quarterly observations with a test statistic | the computed test statistic for the regression with 27 quarterly observations is 2.06
+a white noise process will have | a white noise process has a constant variance and zero autocovariances at nonzero lags
+a johansen trace test for a null of 2 cointegrating vectors on a system | the johansen trace test for 2 cointegrating vectors keeps the 2 smallest eigenvalues
+a disadvantage of pure time series models relative to structural models | pure time series models are not theoretically motivated compared to structural models
+consequences of one or more clrm assumptions being violated | violating one or more clrm assumptions can cause all of the listed consequences
+a criticism of the dickey fuller engle granger approach to cointegration | the engle granger approach cannot perform tests about the cointegrating vector
+in python 3 which function sets the integer starting value used in generating random numbers | the seed function sets the integer starting value used in generating random numbers in python 3
+in python 3 which operator performs exponential power calculation on operands | the double asterisk operator performs exponential power calculation in python 3
+in python 3 which function checks in a string that all characters are in uppercase | the isupper function checks in a string that all characters are in uppercase in python 3
+Which of the following are advantages of the VAR approach to modelling the relationship between variables relative to the estimation of full structural models?
+
+i) VARs receive strong motivation from financial and economic theory
+
+
+ii) VARs in their reduced forms can be used easily to produce time-series forecasts
+
+
+iii) VAR models are typically highly parsimonious
+
+
+iv) OLS can be applied separately to each equation in a reduced form VAR | (ii) and (iv) only
+What will be the properties of the OLS estimator in the presence of multicollinearity? | It will be consistent, unbiased and efficient
+The purpose of "augmenting" the Dickey-Fuller test regression is to | Ensure that there is no autocorrelation in the test regression residuals
+Under the matrix notation for the classical linear regression model, $y = X \beta + u$, what are the dimensions of $u$? | T x 1
+Which of the following are advantages of the use of panel data over pure cross-sectional or pure time-series modelling?
+
+(i) The use of panel data can increase the number of degrees of freedom and therefore the power of tests
+
+(ii) The use of panel data allows the average value of the dependent variable to vary either cross-sectionally or over time or both
+
+(iii) The use of panel data enables the researcher allows the estimated relationship between the independent and dependent variables to vary either cross-sectionally or over time or both | (i) and (ii) only
+Suppose that a hypothesis test is conducted using a 5% significance level. Which of the following statements are correct?
+
+(i) The significance level is equal to the size of the test
+
+(ii) The significance level is equal to the power of the test
+
+(iii) 2.5% of the total distribution will be in each tail rejection region for a 2-sided test
+
+(iv) 5% of the total distribution will be in each tail rejection region for a 2-sided test. | (i) and (iii) only

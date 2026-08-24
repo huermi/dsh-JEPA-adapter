@@ -1,0 +1,36 @@
+what is the mean of a list of numbers | the mean of a list of numbers is the sum of the numbers divided by the count of numbers
+what is a hash table used for | a hash table maps keys to values for fast lookup, and can be used for spell checking dictionaries
+what is an abstract syntax tree | an abstract syntax tree is a tree representation of the syntactic structure of source code
+what does a depth first search tree produce | a depth first search on a connected undirected graph produces a spanning tree, and non-tree edges connect a vertex to an ancestor
+what is the probability of selecting a defective item from two shipments | the probability of a combined event is computed by enumerating outcomes and dividing favorable cases by total cases
+which python function joins a sequence of strings | the join method in python concatenates a sequence of strings with a separator
+what is the len function in python | the len function in python returns the number of characters in a string or items in a collection
+what is an attribute grammar | an attribute grammar is a formal grammar extended with attributes and semantic rules to compute values
+what is a semantic stack | a semantic stack is used in some compilers to evaluate semantic actions during parsing
+how many parameters need to be estimated in total for a standard form unrestricted model | the total number of parameters to estimate in the standard form unrestricted model is 36
+which statement about the regression population and sample is false | the statement that in theory the sample could be larger than the population is false
+plausible approaches to dealing with a model that exhibits heteroscedasticity | the plausible approaches to dealing with heteroscedasticity include the first second and third options
+Which country faces a serious trade disadvantage due to its location? | Mongolia
+Which of the following is an example of a bulk-gaining industry? | Bottled orange juice
+Why are perceptual or vernacular regions so difficult to identify? | Defining criteria are subjective and differ among researchers.
+The largest exporter of agricultural goods in the world is | the United States.
+The cities of Varanasi (Benares) in India and Mecca in Saudi Arabia are alike because both are | destinations for vast numbers of pilgrims
+The use and spread of English in nineteenth-century India is an example of what type of diffusion? | Hierarchal
+The multiplier effect is | the addition of non-basic workers to an urban economy that has added more basic workers.
+Which one of the following statements does NOT correctly describe transnational companies (TNCs)? | TNCs are generally controlled by foreign governments.
+In which country does language pose a centrifugal force? | Canada
+Which of the following is a formal region? | Pennsylvania
+In which urban US setting below would you expect to find planned communities? | Suburbs
+All of the following are non-basic jobs in the city EXCEPT | garment factory worker.
+Which of the following statements is NOT part of Gunnar Myrdal's theory of cumulative causation? | Developing and developed regions share similarly in wealth through trade.
+The theory that the main purpose of a settlement or market town is to furnish goods and services to the surrounding market area is called the | central place theory.
+Which one of the statements below is characteristic of most African cities? | They have three separate business districts.
+Which of the following is LEAST self-sufficient in the natural resources needed for modern industry? | Japan
+Which of the following activities are NOT secondary economic activities? | Mining copper
+Which of the following jobs is in the non-basic employment sector? | Parking lot attendant
+Which of the following is NOT a key milestone reached by the EU? | A common European language
+Which structure(s) traditionally occupies the center of a historic Asian city? | A religious building
+The latitude and longitude coordinates of a place are an example of | an absolute location.
+Historically, the world's major languages have spread by all of the following methods EXCEPT | Sanskrit records.
+The influence of neo-Malthusianism can be seen in | government programs for birth control and planning.
+In which of the following Asian countries would one find special economic zones (SEZs)? | China

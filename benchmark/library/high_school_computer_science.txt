@@ -1,0 +1,48 @@
+which python function sets the starting value for random number generation | the python random seed function sets the integer starting value used in random number generation
+which python operator performs exponentiation power calculation | the double asterisk operator in python performs exponentiation, raising a number to a power
+what does negative index mean in python string | in python negative indices count from the end of a string, so index minus one is the last character
+which python string method checks if all characters are uppercase | the isupper method in python checks whether all characters in a string are uppercase
+what does the python min function return | the python min function returns the smallest element of a list or sequence
+what is the risk of sending credit card information by email | emailing credit card information is a serious cybersecurity risk because email is not a secure channel
+how many unique items can be identified with n binary bits | n binary bits can identify 2 to the power n unique items, so each extra bit doubles the capacity
+what does a creative commons attribution license allow | a creative commons attribution license allows copying and reusing code as long as the original author is credited
+which data structure in a compiler manages identifiers and their attributes | the symbol table in a compiler is responsible for managing identifiers and their attributes
+what is currying in functional programming | currying transforms a function taking multiple arguments into a sequence of functions each taking a single argument
+what is a combinational circuit | a combinational circuit has outputs that depend only on current inputs, with no memory of previous states
+what happens if a malicious process gets temporary administrator access | the threat from a malicious process with administrator access is often permanent until the system is reinstalled or thoroughly cleaned
+which python operator performs integer division | the double slash operator in python performs integer division, discarding the remainder
+when are runtime errors detected | runtime errors are detected during run time while the program is executing
+what does binary search require | binary search requires a sorted array and repeatedly narrows the search interval by half
+what is the mean of a list of numbers | the mean of a list of numbers is the sum of the numbers divided by the count of numbers
+what is a hash table used for | a hash table maps keys to values for fast lookup, and can be used for spell checking dictionaries
+what is an abstract syntax tree | an abstract syntax tree is a tree representation of the syntactic structure of source code
+what does a depth first search tree produce | a depth first search on a connected undirected graph produces a spanning tree, and non-tree edges connect a vertex to an ancestor
+what is the probability of selecting a defective item from two shipments | the probability of a combined event is computed by enumerating outcomes and dividing favorable cases by total cases
+which python function joins a sequence of strings | the join method in python concatenates a sequence of strings with a separator
+what is the len function in python | the len function in python returns the number of characters in a string or items in a collection
+what is an attribute grammar | an attribute grammar is a formal grammar extended with attributes and semantic rules to compute values
+what is a semantic stack | a semantic stack is used in some compilers to evaluate semantic actions during parsing
+in python 3 which function sets the integer starting value used in generating random numbers | the seed function sets the integer starting value used in generating random numbers in python 3
+in python 3 which operator performs exponential power calculation on operands | the double asterisk operator performs exponential power calculation in python 3
+in python 3 which function checks in a string that all characters are in uppercase | the isupper function checks in a string that all characters are in uppercase in python 3
+let l equal 1 2 3 4 what is min of l in python 3 | the min of the list 1 2 3 4 in python 3 is 1
+an algorithm used to simulate the results of flipping a coin 4 times | the goal of the coin flipping algorithm requires a heads counter variable to count heads
+a programmer uses code published online under a creative commons attribution license | a creative commons attribution license requires giving credit to the original author when reusing the code
+an algorithm for finding the average of n numbers where average equals sum divided by n | the average is sum divided by n and the error occurs during run time when the division is performed
+what is the output of abc with a negative one index in python | abc with index negative one in python gives the last character which is c
+an algorithm that simulates flipping a coin 4 times and needs to count heads | the coin flipping algorithm needs a heads counter variable to count the number of heads
+a method to search an array for a value larger than a given item | when a method must find and return a value larger than the item the specification should be modified
+an online store uses 6 bit binary sequences to identify items and plans to add one more bit | adding one more bit doubles the number of unique item identifiers
+a procedure intended to return the number of times a value appears in a list | to fix the counting procedure the statement in line 5 should be moved so the counter resets properly
+If a, b, and c are integers, which of the following conditions is sufficient to guarantee that the expression a < c || a < b && !(a == c) evaluates to true? | a < c
+An algorithm will be used to identify the maximum value in a list of one or more integers. Consider the two versions of the algorithm below.
+
+ Algorithm I :  Set the value of a variable max to -1. Iterate through the list of integer
+   values. If a data value is greater than the value of the variable max, set
+  max to the data value.
+ Algorithm II : Set the value of a variable max to the first data value. Iterate through the
+   remaining values in the list of integers. If a data value is greater than the
+   value of the variable max, set max to the data value.
+
+ Which of the following statements best describes the behavior of the two algorithms? | Neither algorithm will correctly identify the maximum value when the input contains both positive and negative input values.
+Which pillar of cybersecurity is compromised when someone logs into a system using a stolen login and password? | Authentication

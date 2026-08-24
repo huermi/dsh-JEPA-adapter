@@ -1,0 +1,38 @@
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# ── 第三方模型缓存 (运行时下载, 不入库) ──
+models/
+!models/.gitkeep
+
+# ── 数据集 (版权) ──
+benchmark/mmlu/
+benchmark/data/
+
+# ── 运行产物 ──
+benchmark/snapshots/
+*.log
+*.bak
+benchmark/library.bak_*/
+
+# ── 模型权重 (1.6G, 不入库) ──
+weights/
+
+# ── 本地工作区数据 (含原始记忆日志; 公开脱敏版在 memory_public/) ──
+.workbuddy/
+.idea/
+.vscode/
+*.suo
+.DS_Store
+Thumbs.db
+
+# ── 一次性工具 (含作者机器路径线索) ──
+_relativize_paths.py
+
+# ── 数据集 (大文件/版权) ──
+data/

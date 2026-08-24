@@ -1,0 +1,48 @@
+which religion developed first | hinduism developed first, before buddhism christianity and islam
+which group is excluded from the caste system of hinduism | the untouchables are excluded from the caste system of hinduism
+what are variations in vocabulary pronunciation and rhythm in a spoken language called | variations in vocabulary pronunciation and rhythm in a spoken language are called dialects
+what is a pull factor in migration | a pull factor in migration attracts people to a destination, such as better jobs and higher wages
+which group made the first effective settlement in the eastern united states | the british english scotch irish and welsh made the first effective settlements in the eastern united states
+what is the green revolution | the green revolution introduced high yield crop varieties and modern agricultural techniques to developing countries
+why did the green revolution not help africa much | the green revolution targeted crops and farming conditions common in asia, not the crops africans grow
+what is slash and burn agriculture | slash and burn agriculture is shifting cultivation in tropical areas, and such societies often experience population pressure
+what is the china vietnam dispute over the spratly islands | the dispute between china and vietnam over the spratly islands is a resource dispute over fishing and oil
+what caused the second agricultural revolution | the second agricultural revolution was driven by the industrial revolution and the birth of an urban industrial workforce in europe
+what is a non ecumene | a non ecumene is an uninhabited or sparsely inhabited area of the earth
+what was the first agricultural revolution | the first agricultural revolution was the transition from hunting and gathering to settled farming
+what is an isogloss | an isogloss is a geographic boundary line marking the extent of a linguistic feature
+what is a lingua franca | a lingua franca is a common language used for communication between speakers of different languages
+what are the first migrations to canada | the first major migration to canada came from britain, and later streams came from other european countries
+the maximum possible order of an element in the symmetric group on 6 elements | the maximum possible order of an element in the symmetric group on 6 elements is 6
+a generator of the finite field z 7 | the number 3 is a generator of the finite field z 7
+the number of relations on a set with three elements | a set with three elements has 2 to the power 9 relations
+the relation with only the pairs 1 1 and 2 2 on the set 1 2 3 | the relation with only the pairs 1 1 and 2 2 is both symmetric and anti symmetric
+functions f from a to b and g from b to a such that g of f of a equals a | if g of f of a equals a then f is injective but g is not necessarily surjective
+an abelian group of order 45 having a subgroup of order 10 | an abelian group of order 45 cannot have a subgroup of order 10 because 10 does not divide 45
+compute 20 times negative 8 in the ring z 26 | 20 times negative 8 in z 26 equals 22
+the number of zeros of the polynomial in the finite field | the polynomial has one zero in the finite field
+which statement about historical north american migration streams is not correct | the claim that the first major migration to canada came from the united states is not correct, since it came from britain
+urban agriculture benefits urban society except | urban agriculture benefits society in all listed ways except replacing agribusiness as the main focus of food production
+which society is most likely to experience population pressure | a slash and burn agricultural society is most likely to experience population pressure
+Statement 1 | Every integral domain with characteristic 0 is infinite. Statement 2 | Every integral domain with prime characteristic is finite. | True, False
+A subset H of a group (G,*) is a group if | a,b in H=> a * b^-1 in H
+Statement 1 | Every ideal in a ring is a subring of the ring. Statement 2 | Every subring of every ring is an ideal of the ring. | True, False
+Find all c in Z_3 such that Z_3[x]/(x^3 + cx^2 + 1) is a field. | 2
+Statement 1 | Every homomorphic image of a group G is isomorphic to a factor group of G. Statement 2 | The homomorphic images of a group G are the same (up to isomorphism) as the factor groups of G. | True, True
+Statement 1| Every group of order p^2 where p is prime is Abelian. Statement 2 | For a fixed prime p a Sylow p-subgroup of a group G is a normal subgroup of G if and only if it is the only Sylow p-subgroup of G. | True, True
+Let p = (1, 2, 5, 4)(2, 3) in S_5 . Find the index of <p> in S_5. | 24
+Statement 1 | If a finite group has order n then the group contains a subgroup of order d for every positive divisor d of n. Statement 2 | If a belongs to a finite group then |a| divides |G|. | False, True
+Statement 1 | The unity of a subring must be the same as the unity of the ring. Statement 2 | Every field is an integral domain. | False, True
+In the group G = {2, 4, 6, 8) under multiplication modulo 10, the identity element is | 6
+Statement 1 | A factor group of a non-Abelian group is non-Abelian. Statement 2 | If K is a normal subgroup of H and H is a normal subgroup of G, then K is a normal subgroup of G. | False, False
+Find the degree for the given field extension Q(sqrt(2)) over Q. | 2
+Statement 1 | Every solvable group is of prime-power order. Statement 2 | Every group of prime-power order is solvable. | False, True
+For T: Z x Z -> Z where T(1, 0) = 3 and T(0, 1) = -5, find T(-3,2). | -19
+Find the number of elements in the indicated cyclic group: The cyclic subgroup of Z_30 generated by 25. | 6
+Statement 1 | If R is a ring and f(x) and g(x) are in R[x], then deg (f(x)+g(x)) = maximum (deg f(x), deg g(x)). Statement 2 | If F is a field then every ideal of F[x] is principal. | False, True
+Find the degree for the given field extension Q(sqrt(2) + sqrt(3)) over Q. | 4
+The polynomial x^3 + 2x^2 + 2x + 1 can be factored into linear factors in Z_7[x]. Find this factorization. | (x + 1)(x − 4)(x − 2)
+Let A and B be sets, f: A -> B and g: B -> A be functions such that for all a \in A, g(f(a)) = a. Statement 1 | The function f must necessarily be injective. Statement 2 | The function f must necessarily be surjective. | True, False
+Find the characteristic of the ring Z_3 x 3Z. | 0
+The set of all real numbers under the usual multiplication operation is not a group since | zero has no inverse
+Compute the product in the given ring. (12)(16) in Z_24 | 0

@@ -1,0 +1,48 @@
+what is a symmetric relation | a relation is symmetric if whenever a is related to b, then b is related to a
+what is an antisymmetric relation | a relation is antisymmetric if whenever a is related to b and b is related to a, then a equals b
+is every cycle a permutation | every cycle is a permutation, but not every permutation is a single cycle, since a permutation can be a product of several disjoint cycles
+what is a generator of a finite field | a generator of a finite field is an element whose powers produce all nonzero elements of the field
+what is a subgroup | a subgroup is a subset of a group that is itself a group under the same operation
+what is the characteristic of the integers | the characteristic of the ring of integers is zero, since no positive multiple of one equals zero
+what is lagrange theorem | lagranges theorem states that the order of a subgroup divides the order of the group
+what is a permutation group on n elements | the symmetric group on n elements contains all permutations of n items
+what is the lcm of numbers one through n | the maximum possible order of an element in the symmetric group on n elements is the maximum least common multiple of partitions of n
+how to find the mean of test scores | the mean of test scores is the sum of the scores divided by the number of scores
+how to find the median | the median is the middle value of a set of numbers arranged in order
+how to find the mode | the mode is the value that appears most frequently in a set of numbers
+how to subtract fractions | to subtract fractions find a common denominator, subtract the numerators, and simplify the result
+what is the place value of a digit | the value of a digit depends on its position, and a digit in one place is ten times the digit to its right
+the number of candy pieces lily has when she gives an equal number to each friend | lily had 30 pieces of candy
+the next number in umis pattern adding the same amount each time | the next number in umis pattern is 160
+a number that is between 0.0051 and 0.038 | 0.0261 is a number between 0.0051 and 0.038
+what happens to the mean when a score above the previous range is added | adding a score above the previous range makes the mean increase
+a tournament with 393 players and 3 players on each team | the number of teams is 393 divided by 3
+which number has a digit 6 with the same value as the 6 in 186425 | the number 462017 has a digit 6 with the same value as the 6 in 186425
+the mean of the scores 76 80 83 71 80 and 78 | the mean of 76 80 83 71 80 and 78 is 78
+what is 3 over 4 minus 1 over 8 | three quarters minus one eighth equals five eighths
+gary has 72 cows and 6 times as many cows as horses | gary has 12 horses
+a number that is between 2329500 and 2598100 | 2589200 is between 2329500 and 2598100
+the number that makes 48 over 88 equal something over 11 | 48 over 88 equals 6 over 11
+coach wu has 30 soccer balls and 9 are white | coach wu has 30 soccer balls and 9 of them are white
+Find the number that makes the statement 12 over 18 = ? over 9 true. | 4
+A shelf has four books on it. The weight, in pounds, of each of the four books on the shelf is 2.5, 3.2, 2.7, 2.3 Which inequality represents the weight, w, of any book chosen from the shelf? | w < 3.3
+Use mental math to find the sum of 11.7 + 3.4 + 6.3. | 21.4
+Identify a solution for the equation 5x − 5 = −10 from the given numbers. | −1
+Use the list of numbers: 22, 25, 14, 11, 23, 27, 46. What is the mode? | No mode
+A newspaper company sold 179,912 newspapers in one day. What is this number of newspapers written in word form? | one hundred seventy-nine thousand nine hundred twelve
+Use the equation below to answer the question. 14 × 3 = 42 Which statement correctly interprets the expression? | 42 is 3 times as many as 14.
+Miranda enlarged a picture proportionally. Her original picture is 4 cm wide and 6 cm long. If the new, larger picture is 10 cm wide, what is its length? | 15 cm
+Write the unit rate for driving 308 km in 4 h. Round to the nearest hundredth if necessary. | 77 km/h
+Write the ratio of 96 runners to 216 swimmers in simplest form. | 4 over 9
+Find the exact answer: 145 + 281 + 62 | 488
+Find the quotient of −40 ÷ (−8). | 5
+Steve ordered plastic cases for storing his baseball cards. Each case has a length of 12 centimeters, a width of 6.5 centimeters, and a height of 1.25 centimeters. What is the volume, in cubic centimeters, of one baseball card case? | 97.5
+What is the quotient for the expression 2,314 / 4? | 578 r2
+At a college, approximately 2 out of 5 seniors go on to attend graduate school. If there are 750 seniors at the college, how many would be expected to attend graduate school? | 300 seniors
+Westview School is buying new basketball uniforms. Each uniform costs $46. The school will buy 12 uniforms. Which equation shows a way to find the total cost of the uniforms? | (40 × 12) + (6 × 12) = 480 + 72
+The number pattern follows a skip-counting rule. 5, 20, 35, 50, 65... Which number pattern follows the same rule? | 12, 27, 42, 57, 72...
+A bulletin board can be covered completely by 30 square pieces of paper without any gaps or overlaps. If each piece of paper has side lengths of 1 foot, what is the total area of the bulletin board? | 30 square feet
+Katie is going on vacation for 3 weeks. She finds the number of days of work she will miss by multiplying 5 × 3. Which expression shows another way Katie can find the number of days of work she will miss? | 5+5+5
+Identify the algebraic expression that matches the word phrase: 4 times as many cans as Tom collected. | 4t
+Two whole numbers have a least common multiple of 60. Each number is less than or equal to 12. The greatest common factor of the two numbersis 2. What are the two numbers? | 10 and 12
+Write 7 over 33 as a decimal. | 0.21 Repeating
