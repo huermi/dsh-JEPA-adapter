@@ -156,6 +156,38 @@ python body/plugin_server.py
 
 > 默认强制离线加载（`HF_HUB_OFFLINE`）：模型已本地缓存时不再联网检查，避免断网环境 import 卡死（transformers 联网超时重试问题）。
 
+## 接入 dsh harness（DeepSeek 本地 harness）
+
+dsh 通过 OpenAI 兼容 provider 接入 JEPA，三步：
+
+```bash
+# 1. 启动 JEPA 服务器（见快速开始）
+python body/plugin_server.py
+
+# 2. 设置 API key 环境变量（JEPA 服务器不校验 key，占位即可）
+setx JEPA_API_KEY jepa-local-key
+```
+
+3. 在 `~/.dsh/settings.yaml` 注册 provider（如未注册），并设为默认模型：
+
+```yaml
+llm-pi-ai:
+  providers:
+    jepa:
+      {
+        displayName: JEPA Body (本地模型),
+        apiKeyEnv: JEPA_API_KEY,
+        api: openai-completions,
+        baseURL: http://127.0.0.1:8045/v1/,
+        models: [ { id: jepa-1 } ]
+      }
+agent-default-model:
+  provider: jepa
+  model: jepa-1
+```
+
+完成：dsh 模型选择中出现 **"JEPA Body (本地模型)"**，选择 `jepa-1` 即可对话与工具调用（多步任务由 JEPA 检索调用记忆驱动：list → read → done）。
+
 ## 学习与训练
 
 ```bash

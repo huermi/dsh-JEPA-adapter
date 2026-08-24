@@ -159,6 +159,38 @@ python body/plugin_server.py
 
 > Offline load is the default (`HF_HUB_OFFLINE`): when the model is cached locally, no network check is performed, avoiding the transformers import hang on unreachable networks.
 
+## Connecting to dsh (DeepSeek local harness)
+
+dsh connects to JEPA through an OpenAI-compatible provider, three steps:
+
+```bash
+# 1. Start the JEPA server (see Quick Start)
+python body/plugin_server.py
+
+# 2. Set the API key env var (JEPA does not validate the key; a placeholder is fine)
+setx JEPA_API_KEY jepa-local-key
+```
+
+3. Register the provider in `~/.dsh/settings.yaml` (if not already) and set it as default:
+
+```yaml
+llm-pi-ai:
+  providers:
+    jepa:
+      {
+        displayName: JEPA Body (local model),
+        apiKeyEnv: JEPA_API_KEY,
+        api: openai-completions,
+        baseURL: http://127.0.0.1:8045/v1/,
+        models: [ { id: jepa-1 } ]
+      }
+agent-default-model:
+  provider: jepa
+  model: jepa-1
+```
+
+Done: **"JEPA Body (local model)"** appears in the dsh model list — select `jepa-1` for chat and tool calling (multi-step tasks are driven by JEPA's call-memory retrieval: list → read → done).
+
 ## Learning & Training
 
 ```bash
